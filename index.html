@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <link rel="icon" href="C:\Users\vetri\OneDrive\Desktop\portfolio\unemployables-portfolio-template-main\assets\images\photo.jpeg" />
+		<title>Vetri's Portfolio</title>
+    <meta name="description" content="A portfolio template for the Unemployables community.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+
+		<script defer src="./js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="./index.html">
+        <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
+        <span class="nav-title">PORTFOLIO</span>
+         <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+        <a class="button" href="mailto:vetrianandhan2002@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PORTFOLIO HEADER -->
+      <div id="portfolio-header">
+        <div id="portfolio-header-image-container">
+          <img src="./assets/images/photo.jpeg" class="portfolio-header-image">
+          <a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311">
+            <span class="image-caption">software developer</span>
+          </a>
+        </div>
+
+          <!-- 
+            TODO
+
+            - Change the main-title to whatver you want
+            - Change the body-text after that to a quick introduction to what you do
+            - Edit the button text if you feel like it. It will link to the projects section below.
+          -->
+        <div id="portfolio-header-text-container">
+            <div class="header-text">
+              <span class="main-title">Hey, I'm VETRIVELAN.</span>
+              <div class="body-text">An aspiring software developer and I hope this portfolio help you to know about me and my works.</div>
+            </div>
+            <a class="button" id="my-work-link">
+              <span class="button-text">Check out my projects</span> 
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+        </div>
+      </div>
+      <div id="about-section">
+        <span class="subheader-text">My Background / About Me</span>
+        <div class="about-section-content">
+          <div class="body-text">I am a recent graduate with a degree in computer science and engineering from Dr mahalingam college of engineering and technology. Passionate about software engineering, I am eager to embark on a dynamic career in the tech industry. During my academic journey, I honed my skills in c programing, sql, Unreal Engine, and I am excited to apply these skills in real-world projects.</div>
+          <div class="body-text">My academic projects, such as web - scrapping and Stealing on the target system, showcase my problem-solving abilities and creativity. I am a fast learner, adaptable to new technologies, and thrive in collaborative environments. With a strong foundation in problem solving and the development skills, I am committed to continuous learning and staying updated on industry trends.</div>
+        </div>
+      </div>
+
+      <!-- PROJECTS / MY WORK SECTION -->
+      <div id="my-work-section">
+        <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
+        <span class="subheader-text">My Work / My Projects</span>
+
+        <div class="projects-container">
+          <!-- 
+            TODO
+
+            This is where the project cards live. Here's a base level project card for you to copy:
+            <div class="project-card">
+              <img src="./assets/images/IMAGE_NAME" class="project-image">
+              <div class="project-card-text-container">
+                <div class="subheader-text project-title">PROJECT_NAME</div>
+                <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
+              </div>
+              <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
+                <span class="button-text">Read More</span>
+                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+              </a>
+            </div>
+
+            - To add a project to the this area, copy the above, paste it below this comment, and change the following:
+                - IMAGE_NAME: the name of the image file in assets/images
+                - PROJECT_NAME: the name of the project (keep it short, it only shows 1 line)
+                - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
+                - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
+          -->
+          <div class="project-card">
+            <img src="./assets/images/scrap.jpeg" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Web-scrapping</div>
+              <div class="body-text project-card-text">Scrapping the data or information for the link and extract the detail based on the query using the beautiful soup algorithm and display using bots...</div>
+            </div>
+            <a class="button" href="https://github.com/vetri2002">
+              <span class="button-text">Git hub</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/hack.jpeg" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Ethical hacking</div>
+              <div class="body-text project-card-text">Using the kali-linux and ducky script we can gather the information or steal the information from the another the system by using reverse TCP...</div>
+            </div>
+            <a class="button" href="https://github.com/vetri2002">
+              <span class="button-text">Git hub</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+          <div class="project-card">
+            <img src="./assets/images/iot.jpeg" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">EV emergency backup</div>
+              <div class="body-text project-card-text">When two battery is charing by the solar panel using the aurdino board we can able to switch the batteries charing based on the battery remains simultaneously...</div>
+            </div>
+            <a class="button" href=".https://github.com/vetri2002">
+              <span class="button-text">Git hub</span>
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://www.instagram.com/vetri_anandhan/">
+        <image src="./assets/icons/instagram.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://twitter.com/VetriVe00694159">
+        <image src="./assets/icons/twitter.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="mailto:vetrianandhan2002@gmail.com">
+        <image src="./assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
